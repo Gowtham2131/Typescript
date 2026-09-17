@@ -16,3 +16,20 @@ console.log("Even number")
 for(var a:number=2;a<=10;a+=2){
     console.log(a)
 }
+
+for(var a:number=1;a<=10;a++){
+
+    if(a==5){
+        break;
+    }
+    console.log(a)
+}
+
+console.log("continue")
+for(var b:number=1;b<=10;b++){
+
+    if(b==5){
+      continue;  
+    }
+    console.log(b)
+}
